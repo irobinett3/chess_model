@@ -4,8 +4,7 @@ import psycopg2
 import csv
 
 # Database connection details
-connection_string = "postgres://tsdbadmin:m2qyg360nit0cecm@i9kfhxvrde.y7udgt23ov.tsdb.cloud.timescale.com:30616/tsdb?sslmode=require"
-
+connection_string = "[Hidden]"
 # Establish a connection to the database
 conn = psycopg2.connect(connection_string)
 

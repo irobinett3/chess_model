@@ -54,7 +54,7 @@ players = [('Carlsen', 'https://www.365chess.com/search_result.php?wid=8014&bid=
         ('Artemiev','https://www.365chess.com/search_result.php?wid=215394&bid=&wlname=Artemiev%2C+Vladislav&open=&blname=&eco=&nocolor=on&yeari=&yeare=&sply=1&ply=&res=&submit_search=1'),
         ('Alekseenko','https://www.365chess.com/search_result.php?wid=212200&bid=&wlname=Alekseenko%2C+Kirill&open=&blname=&eco=&nocolor=on&yeari=&yeare=&sply=1&ply=&res=&submit_search=1')]
         
-connection_string = "postgres://tsdbadmin:m2qyg360nit0cecm@i9kfhxvrde.y7udgt23ov.tsdb.cloud.timescale.com:30616/tsdb?sslmode=require"
+connection_string = "[HIDDEN]"
 conn = psycopg2.connect(connection_string)
 
 
